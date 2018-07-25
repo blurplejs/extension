@@ -1,0 +1,19 @@
+{
+  "name": "@blurple/extension",
+  "version": "1.0.0",
+  "description": "blurple.js Discord Bot Extension",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blurplejs/extension.git"
+  },
+  "author": "Christopher Mühl <christopher@padarom.io>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/blurplejs/extension/issues"
+  },
+  "homepage": "https://blurple.js.org",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
