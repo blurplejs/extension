@@ -1,6 +1,6 @@
 {
   "name": "@blurple/extension",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "blurple.js Discord Bot Extension",
   "main": "index.js",
   "repository": {
@@ -17,3 +17,4 @@
     "discord.js": "^11.3.2"
   }
 }
+
