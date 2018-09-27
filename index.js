@@ -1,5 +1,5 @@
 module.exports = {
-    Command: require('./src/Command'),
-    Bot: require('./src/Bot')
+    Command: require('./dist/Command'),
+    Bot: require('./dist/Bot')
 }
 

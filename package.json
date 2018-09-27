@@ -7,6 +7,11 @@
     "type": "git",
     "url": "git+https://github.com/blurplejs/extension.git"
   },
+  "scripts": {
+    "build": "babel src -d dist",
+    "watch": "babel src --watch -d dist",
+    "prepublish": "npm run build"
+  },
   "author": "Christopher Mühl <christopher@padarom.io>",
   "license": "CC-BY-4.0",
   "bugs": {
@@ -15,6 +20,10 @@
   "homepage": "https://blurple.js.org",
   "dependencies": {
     "discord.js": "^11.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
   }
 }
-
