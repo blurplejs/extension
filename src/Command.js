@@ -1,4 +1,4 @@
-export default class Command {
+module.exports = class Command {
 
     constructor (extension, signature) {
         this.extension = extension

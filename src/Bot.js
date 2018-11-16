@@ -1,4 +1,4 @@
-export default class Bot {
+module.exports = class Bot {
 
 }
 

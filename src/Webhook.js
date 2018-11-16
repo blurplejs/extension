@@ -1,14 +1,9 @@
 module.exports = class Webhook {
 
-    constructor (extension, route) {
+    constructor (extension, route, handler) {
         this.extension = extension
         this.route = route
-    }
-
-    call (handler) {
         this.handler = handler
-
-        return this
     }
     
     post () {
